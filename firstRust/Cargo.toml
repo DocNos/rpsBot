@@ -1,0 +1,17 @@
+[package]
+name = "firstRust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Libraries and others are known as Crates
+# need to add these (assumedly with correct version)
+# to use the specified library
+
+[dependencies]
+rand = "0.8.5"
+# Can also depend on specific repo
+# Can run into issues if repo updates
+# add rev specifier, or just let .lock do it for you.
+# regex = { git = "https://github.com/rust-lang/regex.git" , rev = "9f9f693" }
